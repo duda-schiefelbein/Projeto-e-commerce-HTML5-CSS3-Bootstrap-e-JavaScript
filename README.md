@@ -29,7 +29,17 @@ meu-projeto/
 └── img/                    # Imagens dos produtos (produto_1.jpg, etc.)
 
 🛠️ 3. Componentes Mapeados
-📄 index.html (Lojinha)Finalidade: Carrinho de compras para produtos eletrônicos.Recursos:Tabela estilizada com a classe table-hover.Exibição de imagens de produtos, código e cor.Botões funcionais de adicionar/remover quantidade via badges do Bootstrap (text-bg-danger, text-bg-success).Rodapé com exibição do subtotal.Integração com Bootstrap Icons (bi-cart-check, bi-dash, bi-plus, bi-currency-dollar).
-📄 grid.html (Grid System)Finalidade: Exemplo de layout com o sistema de colunas do Bootstrap.Recursos:Utilização da estrutura .container e .row.Divisão em colunas automáticas (.col).Cartões estilizados com temas de borda e fundo do Bootstrap (border-primary, border-danger, border-success).
-📝 4. Histórico de Tarefas ExecutadasAtividadeDescrição DetalhadaStatusMapeamento do CódigoLeitura e preservação integral do código HTML dos arquivos index.html e grid.html.ConcluídoDocumentação TécnicaCriação deste arquivo README.md detalhando o escopo do projeto e a estrutura de diretórios.ConcluídoGuia de VersionamentoElaboração de instruções de uso do Git/GitHub para alteração e renomeação de pastas.ConcluídoIdentificação de AssetsMapeamento das chamadas CSS, JS e recursos multimídia utilizados no projeto.Mapeado
-⚙️ 5. Tecnologias UtilizadasHTML5: Estruturação semântica das páginas.Bootstrap 5.3.8 (via CDN): Framework para estilização rápida, tabelas, layout responsivo e cards.Bootstrap Icons 1.13.1 (via CDN): Ícones vetoriais aplicados nos títulos e botões.JavaScript (js/funcoes.js): Lógica para manipular as quantidades e calcular o subtotal.
+📄 index.html (Lojinha)Finalidade: Carrinho de compras para produtos eletrônicos.Recursos:Tabela estilizada com a classe table-hover.Exibição de imagens de produtos, código e cor.
+Botões funcionais de adicionar/remover quantidade via badges do Bootstrap (text-bg-danger, text-bg-success).
+Rodapé com exibição do subtotal.Integração com Bootstrap Icons (bi-cart-check, bi-dash, bi-plus, bi-currency-dollar).
+📄 grid.html (Grid System)Finalidade: Exemplo de layout com o sistema de colunas do Bootstrap.
+Recursos:Utilização da estrutura .container e .row.Divisão em colunas automáticas (.col).
+Cartões estilizados com temas de borda e fundo do Bootstrap (border-primary, border-danger, border-success).
+📝 4. Histórico de Tarefas ExecutadasAtividadeDescrição DetalhadaStatusMapeamento do CódigoLeitura e
+ preservação integral do código HTML dos arquivos index.html e grid.html.
+ConcluídoDocumentação TécnicaCriação deste arquivo README.md detalhando o escopo do projeto e a estrutura de diretórios.
+ConcluídoGuia de VersionamentoElaboração de instruções de uso do Git/GitHub para alteração e renomeação de pastas.ConcluídoIdentificação de AssetsMapeamento das chamadas CSS, JS e recursos multimídia utilizados no projeto.Mapeado
+⚙️ 5. Tecnologias UtilizadasHTML5: Estruturação semântica das páginas.Bootstrap 5.3.8 (via CDN):
+ Framework para estilização rápida, tabelas, layout responsivo e cards.Bootstrap Icons 1.13.1 (via CDN):
+ Ícones vetoriais aplicados nos títulos e botões.JavaScript (js/funcoes.js):
+ Lógica para manipular as quantidades e calcular o subtotal.
