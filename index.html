@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Lojinha</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/funcoes.js"></script>
+
+</head>
+<body>
+  <div class="container">
+
+    <h1> <i id="icone-carrinho" class="bi bi-cart-check"></i> Eletro-Tech-Store </h1>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th> Imagem </th>
+                <th> Produto</th>
+                <th> Preço Unitário </th>
+                <th> Qtd </th>
+                <th> Total </th>
+            </tr>
+            </thead>
+            <tbody>
+                 <tr>
+              <td>
+                <img src="img/produto_1.jpg" alt="produto_1" width="100">
+              </td>  
+              <td> <div>Celular </div>
+                <div><span class="produto-item">Código:</span> 4400 </div>
+                <div><span class="produto-item"> Cor:</span> Laranja</div>
+             </td> 
+              <td id="valor_1"> R$ 8.000</td> 
+              <td> <span class="badge text-bg-danger" onclick="alterarQtd(1,'-')"><i class="bi bi-dash"></i></span>
+               <span id="qtd_1">0</span> 
+                 <span class="badge text-bg-success" onclick="alterarQtd(1,'+')"><i class="bi bi-plus"></i></span></td> 
+              <td id="total_1"> 0</td> 
+              </tr>
+              <tr>
+
+              <td>
+                <img src="img/produto_2.jpg" alt="produto_2" width="140">
+              </td>  
+              <td> <div>Notebook </div>
+                <div><span class="produto-item"> Código:</span>3800 </div>
+                <div><span class="produto-item" >Cor:</span> Preto</div>
+             </td> 
+              <td id="valor_2"> R$3.000</td> 
+              <td> <span class="badge text-bg-danger" onclick="alterarQtd(2,'-')"><i class="bi bi-dash"></i></span>
+                <span id="qtd_2">0</span> 
+                <span class="badge text-bg-success" onclick="alterarQtd(2,'+')"><i class="bi bi-plus"></i></span></td> 
+              <td id="total_2"> 0</td> 
+              </tr>
+
+               <td>
+                <img src="img/produto_3.jpg" alt="produto_3" width="140">
+
+              </td>  
+              <td> <div> Televisor </div>
+                <div> <span class="produto-item"> Código:</span> 1800 </div>
+                <div> <span class="produto-item">Cor:</span> Preto </div>
+             </td> 
+              <td id="valor_3"> R$2.800</td> 
+              <td> <span class="badge text-bg-danger" onclick="alterarQtd(3,'-')"><i class="bi bi-dash"></i></span>
+                <span id="qtd_3">0</span> 
+                 <span class="badge text-bg-success" onclick="alterarQtd(3,'+')"><i class="bi bi-plus"></i></span></td> 
+              <td id="total_3"> 0</td> 
+              </tr>
+
+            </tbody>
+        </thead>
+    </table>
+<footer class="text-center">
+    <span><i class="bi bi-currency-dollar"></i> Subtotal:<span id="subtotal"> R$ 0 </span> </span>
+</footer>
+</div>
+</body>
+
+</html>
